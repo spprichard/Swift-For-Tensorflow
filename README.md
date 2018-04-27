@@ -26,7 +26,7 @@ let sum = matrix + matrix
 🤔
 
 It is interesting because that same code runs fine outside of a playground...see the basic.swift
-When you compile and run basic.swift with,
+When you compile and run basic.swift with
 ```
 swiftc -O -sdk `xcrun --show-sdk-path` basic.swift
 ./basic
